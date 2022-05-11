@@ -1,0 +1,43 @@
+.service-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;            
+    align-items: center;
+    top: 0px;
+    left: 0px;
+    transition: all .8s;         
+    background-color: #131313;            
+}
+
+
+.backdiv{
+    background: linear-gradient(to right, #ed2a4a, #ff1ba6);
+}
+
+.service-box:hover{
+    top: -10px;
+    left: -10px;      
+    text-shadow: 0px 0px 8px rgb(255,255,255);   
+}
+/* .service-box:hover:after{
+    content:'01';
+    position: absolute;
+    top: -15px;
+    right: 0;
+    color:#808080;
+    font-weight: bold;
+    font-size: 60px;
+}   */
+
+.number{
+    position: absolute;
+    top: -10px;
+    right: 5px;    
+    opacity: .08;
+    font-size: 60px;
+    font-family: 'Varsity';
+}
+
+.type-service{
+    color: #cacaca
+}
